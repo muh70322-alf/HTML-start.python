@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+
+
+<div class="container">
+      <img
+        src="C:\Users\User\Downloads\logo (1).webp" 
+        alt="Logo HSI"
+        class="logo"
+      />
+
+<div class="box">
+      <h3 class="section-title">Biodata Singkat</h3>
+      <img 
+        src="C:\Users\User\OneDrive\Pictures\Camera Roll\WIN_20250916_20_27_42_Pro.jpg" 
+        alt="Foto Santri HSI Muhammad Irkham Fajri" 
+        class="foto-lingkaran">
+
+<div class="card">
+    <h3 class="judul-section">🖼️ Karya Desain</h3>
+    <div class="gallery">
+      <div class="item">
+        <img src="C:\Users\User\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\6246840683344284901_121.jpg" alt="Karya 1">
+        <p>Foto saat Hari Jumat Ba'da Pengecekan Kuku</p>
+      </div>
+      <div class="item">
+        <img src="C:\Users\User\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\6210500900628318066_121.jpg" alt="Karya 2">
+        <p>Foto Ketika Kita Piket Masak</p>
+      </div>
+      <div class="item">
+        <img src="C:\Users\User\OneDrive\Pictures\Saved Pictures\IMG_5659.JPG">
+        <p>Foto Ketika Akhirusanah Kelas IX</p>
+      </div>
+      <div class="item">
+        <img src="C:\Users\User\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\6127306838643950721_121.jpg" alt="Karya 4">
+        <p>Foto Ketika Jal2.Pagi Di Hari sabtu</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Karya Video -->
+  <div class="card">
+    <h3 class="judul-section">▶️🆒🆕 Karya Video</h3>
+    <div class="video-wrapper">
+      <iframe width="100%" height="400"
+        src="C:\Users\User\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\6260441504284678759.mp4"
+        title="Telegram HSI" frameborder="0"
+        allowfullscreen>
+      </iframe>
+      <p> ~ Akal-Akalane Anake Sopo 😲</p>
+    </div>
+  </div>

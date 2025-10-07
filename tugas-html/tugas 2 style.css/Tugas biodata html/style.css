@@ -2,22 +2,24 @@
    Global Styling
 ============================= */
 body {
-  font-family: Arial, sans-serif;
-  background: #f9fafb;
-  margin: 20px auto;
-  max-width: 800px;
-  line-height: 1.6;
-  color: #4265ae;
-  text-align: left;
+  font-family: Arial, sans-serif;   /* Jenis font teks */
+  background: #f9fafb;              /* Warna latar belakang */
+  margin: 20px auto;                /* Jarak luar */
+  max-width: 800px;                 /* Lebar maksimal konten */
+  line-height: 1.6;                 /* Spasi antar baris */
+  color: #4265ae;                   /* Warna teks default */
+  text-align: left;                 /* Teks rata kiri */
 }
+
 
 
 .kelas-asrama {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin: 10px 0;
+  text-align: center;   /* Teks rata tengah */
+  font-weight: bold;    /* Tebal */
+  font-size: 1.2rem;    /* Ukuran teks */
+  margin: 10px 0;       /* Jarak atas bawah */
 }
+
 
 
 
@@ -26,28 +28,30 @@ body {
 ============================= */
 h1 {
   font-family: Arial, sans-serif;
-  color: #2589e8;
-  text-align: center;
+  color: #2589e8;       /* Biru */
+  text-align: center;   /* Tengah */
 }
 
 .section-title {
-  padding-left: 10px;
-  border-left: 4px solid #2df6f2;
+  padding-left: 10px;   /* Jarak ke dalam kiri */
+  border-left: 4px solid #2df6f2; /* Garis tebal kiri */
   margin-top: 20px;
-  color: #067d9b;
+  color: #067d9b;       /* Biru kehijauan */
 }
+
 
 /* =============================
    Box Konten
 ============================= */
 .box {
-  background: #e2f0f3;
-  border: 1px solid #b2b7c1;
-  border-radius: 12px;
-  padding: 15px;
-  margin: 20px 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  background: #e2f0f3;                 /* Warna latar */
+  border: 1px solid #b2b7c1;           /* Garis pinggir */
+  border-radius: 12px;                 /* Sudut melengkung */
+  padding: 15px;                       /* Jarak dalam */
+  margin: 20px 0;                      /* Jarak luar */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Bayangan */
 }
+
 
 /* =============================
    Logo / Foto di Tengah
@@ -99,14 +103,14 @@ a:hover {
   color: #dc2626;
   transition: 0.3s;
 }
-.h5 {
-  text-align: center;
+h5 {
+  text-align: center;     /* Rata tengah */
 }
 
 .img {
-  border-radius: 500px;
+  border-radius: 500px;   /* Membulatkan foto */
   width: 200px;
   height: 200px;
   object-fit: cover;
-  box-shadow: 0 4px 8px rgba(6, 122, 194, 0.717);
+  box-shadow: 0 4px 8px rgba(6, 122, 194, 0.717); /* Bayangan biru */
 }

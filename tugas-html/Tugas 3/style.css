@@ -1,0 +1,356 @@
+/* Reset sederhana */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Warna latar untuk memvisualisasikan blok */
+header,
+.header {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+.nav {
+  display: flex;            /* gunakan flexbox */
+  justify-content: center;  /* posisi horizontal di tengah */
+  margin-top: 10px;
+}
+
+.nav a {
+  text-decoration: none;   /* Menghilangkan garis bawah default link */
+  color: #333;             /* Warna teks abu gelap */
+  margin: 0 10px;          /* Jarak antar menu kanan-kiri */
+  padding: 8px 16px;       /* Ruang dalam tombol */
+  border-radius: 20px;     /* Membuat sudut tombol membulat */
+  border: 1px solid #ddd;  /* Membuat bingkai abu-abu tipis */
+  transition: 0.3s;        /* Animasi halus saat hover */
+}
+
+.nav a:hover {
+  background: #1851cc;  /* Warna latar biru saat mouse diarahkan */
+  color: white;         /* Teks berubah jadi putih */
+}
+
+
+main,
+.main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+/* Section / Artikel utama */
+section,
+.section {
+  flex: 2;
+  background: #e3f2fd;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer,
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+/* =============================
+   Logo / Foto di Tengah
+============================= */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+/* =============================
+   Foto Bulat (Avatar & Foto Pribadi)
+============================= */
+/* Box khusus untuk foto dengan teks */
+.box-foto {
+  display: flex;
+  align-items: center;  /* sejajarkan foto dengan teks di tengah vertikal */
+  gap: 20px;            /* jarak antara foto dan teks */
+}
+
+/* Foto tetap bulat */
+.foto-lingkaran {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #bee7e7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3c87ef;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: Arial, sans-serif;   /* Jenis font teks */
+  background: #f9fafb;              /* Warna latar belakang */
+  margin: 20px auto;                /* Jarak luar */
+  max-width: 800px;                 /* Lebar maksimal konten */
+  line-height: 1.6;                 /* Spasi antar baris */
+  color: #00050c;                   /* Warna teks default */
+  text-align: left;                 /* Teks rata kiri */
+}
+
+.title {
+  text-align: center;   /* judul dengan class "title" di tengah */
+}
+
+
+
+/* =============================
+   Header & Title
+============================= */
+h1 {
+  font-family: Arial, sans-serif;
+  color: #2589e8;       /* Biru */
+  text-align: left;   /* Tengah */
+}
+
+.section-title {
+  padding-left: 10px;   /* Jarak ke dalam kiri */
+  border-left: 4px solid #f1bf07; /* Garis tebal kiri */
+  margin-top: 20px;
+  color: #2589e8;       /* Biru kehijauan */
+}
+
+/* =============================
+   Box Konten
+============================= */
+.box {
+  background: #ffffff;                 /* Warna latar */
+  border: 1px solid #b2b7c1;           /* Garis pinggir */
+  border-radius: 12px;                 /* Sudut melengkung */
+  padding: 15px;                       /* Jarak dalam */
+  margin: 20px 0;                      /* Jarak luar */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Bayangan */
+}
+
+/* === Card Box Tabel === */
+.table-card { 
+  background: #fff;        /* warna latar putih */
+  padding: 20px;           /* jarak isi ke tepi */
+  border-radius: 12px;     /* sudut melengkung */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* bayangan lembut */
+  margin-top: 20px;        /* jarak atas */
+}
+
+.table-card {
+  background:#fff;             /* warna kotak putih */
+  padding:20px;                /* jarak isi ke pinggir */
+  border-radius:12px;          /* sudut melengkung */
+  box-shadow:0 4px 10px rgba(0,0,0,0.1); /* bayangan */
+  margin:20px auto;            /* posisi tengah dengan jarak luar */
+  max-width:900px;             /* lebar maksimum */
+}
+
+.table-title {
+  font:700 18px sans-serif;    /* ukuran & tebal judul */
+  margin-bottom:12px;          /* jarak bawah judul */
+  border-left:4px solid #d4af37; /* garis emas di kiri */
+  padding-left:10px;           /* jarak teks ke garis */
+}
+
+table {
+  width:100%;                  /* tabel memenuhi lebar */
+  border-collapse:collapse;    /* garis tabel menyatu */
+  font-size:14px;              /* ukuran teks */
+}
+
+thead {
+  background:#1a3c9b;          /* header biru tua */
+  color:#fff;                  /* teks putih */
+}
+
+th,td {
+  border:1px solid #ddd;       /* garis tipis abu */
+  padding:10px;                /* ruang isi dalam */
+  text-align:center;           /* isi tabel di tengah */
+}
+
+tbody tr:nth-child(even){
+  background:#f4f6fb;          /* baris genap warna abu muda */
+}
+
+/* Galeri Gambar */
+.gallery {
+  display: grid;                                      /* Susun item dalam grid */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Kolom otomatis responsif, min 180px */
+  gap: 15px;                                          /* Jarak antar kotak */
+  margin-bottom: 15px; 
+}
+
+img {
+  width: 280px;
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  width: 250px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+
+
+
+
+
+  
+
+
+
+.gallery .item {
+  background: #fff;                                   /* Latar putih */
+  border: 1px solid #eee;                             /* Garis tipis abu */
+  border-radius: 8px;                                 /* Sudut melengkung */
+  overflow: hidden;                                   /* Isi rapih, tidak keluar kotak */
+  text-align: center;                               /* Teks rata tengah */
+  box-shadow: 0 2px 6px rgba(21, 8, 8, 0.05);             /* Bayangan lembut */
+}
+.gallery .item img {
+  width: 100%;                                        /* Gambar isi penuh kotak */
+  height: 140px;                                      /* Tinggi tetap */
+  object-fit: cover;                                  /* Crop biar rapi */
+}
+.gallery .item p {
+  font-size: 0.9rem;                                  /* Ukuran teks kecil */
+  padding: 10px;                                      /* Jarak isi teks */
+  color: #555;                                        /* Warna abu gelap */
+}
+
+/* Video */
+.video-wrapper {
+  border-radius: 8px;                                 /* Sudut melengkung */
+  overflow: hidden;                                   /* Video tetap di dalam kotak */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);              /* Bayangan sedikit lebih tegas */
+}
+
+/* Umum */
+body {                    
+  font-family: Arial, sans-serif;   /* Mengatur jenis huruf utama di seluruh halaman */
+  background: #f5f6f8;              /* Warna latar belakang halaman (abu muda) */
+  padding: 20px;                    /* Memberi jarak isi halaman dari tepi layar (20px semua sisi) */
+  color: #333;                      /* Warna teks default (abu tua) */
+  text-align: left;                 /* Semua teks bawaan diatur rata kiri */
+}
+
+
+.title { color: #1a3c9b; margin-bottom: 5px; }  /* Judul utama biru */
+h5 { color: #666; margin-bottom: 15px; }        /* Subjudul abu muda */
+
+/* Navigasi */
+.nav a {                       /* Link menu navigasi */
+  display: inline-block;       /* Ditampilkan sejajar */
+  padding: 8px 16px;           /* Jarak dalam */
+  margin: 3px;                 /* Jarak antar tombol */
+  border-radius: 20px;         /* Membuat tombol bulat */
+  text-decoration: none;       /* Hilangkan garis bawah */
+  background: #f0f2f5;         /* Warna latar abu terang */
+  color: #333;                 /* Warna teks */
+}
+.nav a.active { background: #1a3c9b; color: #fff; }  /* Tombol aktif jadi biru */
+
+/* Kartu Form */
+.card {                               /* Kotak putih form */
+  background: #fff;                   /* Warna putih */
+  padding: 20px;                      /* Jarak isi */
+  border-radius: 10px;                /* Sudut melengkung */
+  max-width: 500px;                   /* Lebar maksimal */
+  margin: auto;                       /* Tengah */
+  text-align: left;                   /* Teks rata kiri */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Bayangan */
+}
+.judul-section { color: #1a3c9b; margin-bottom: 10px; } /* Judul bagian */
+
+/* Form */
+.form-feedback { display: flex; flex-direction: column; gap: 12px; } 
+/* Susunan form ke bawah dengan jarak antar elemen */
+
+input, select, textarea {     /* Semua input, dropdown, textarea */
+  padding: 8px;               /* Jarak dalam */
+  border: 1px solid #ccc;     /* Garis abu */
+  border-radius: 5px;         /* Sudut melengkung */
+  font-size: .95rem;
+}
+
+.judul-section {
+   padding-left: 10px;   /* Jarak ke dalam kiri */
+  border-left: 4px solid #f1bf07; /* Garis tebal kiri */
+}
+
+.nav-container {
+  text-align: center;   /* biar nav & hr di tengah */
+}
+
+.nav {
+  display: inline-block;  /* nav jadi kotak sejajar */
+}
+
+.nav a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 3px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
+
+/* Hilangkan margin default pada judul dan subjudul */
+h1, h2, h3, h4, h5, p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
